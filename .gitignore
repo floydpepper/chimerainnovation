@@ -105,3 +105,6 @@ nbproject
 .idea
 .node_history
 dump.rdb
+Chimera/
+public/images/
+public/javascripts/
