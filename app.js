@@ -11,7 +11,6 @@ var dotenv = require('dotenv').config({path: 'process.env'});
 
 var pg = require('pg');
 var conString = "postgres://"+process.env.DB_USER+":"+process.env.DB_PASS+"@"+process.env.APP_DB_HOST+":"+process.env.APP_DB_PORT+"/"+process.env.APP_DB_NAME;
-console.log(conString);
 var client = new pg.Client(conString);
 // connect to our database
 client.connect(function (err) {
