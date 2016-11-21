@@ -48,7 +48,11 @@ coverage
 .flooignore
 src/common/config/*
 sails-io-settings.js
+<<<<<<< HEAD
 .env
+=======
+*.env
+>>>>>>> 934de9e751f41cff3c26176364c9ed5e51d1d135
 
 ################################################
 # Dependencies
